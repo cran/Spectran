@@ -1,3 +1,17 @@
+# Spectran 1.0.6
+
+* Update to CRAN
+
+# Spectran 1.0.5
+
+*changes in Citation to reflect backup in Zenodo.org and DOI
+
+# Spectran 1.0.4
+
+*changed CITATION to reflect the name change of the LiTG
+
+*fixed an incorrect unit in the alpha-opic comparison plot
+
 # Spectran 1.0.3
 
 * small changes to prepare the package for CRAN submission

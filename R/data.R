@@ -18,7 +18,7 @@
 #'   S026](<https://cie.co.at/publications/cie-system-metrology-optical-radiation-iprgc-influenced-responses-light-0>)
 #'
 #'   [DIN/TS
-#'   5031-100](<https://www.beuth.de/de/vornorm/din-ts-5031-100/343737176>)
+#'   5031-100](<https://www.dinmedia.de/de/vornorm/din-ts-5031-100/343737176>)
 "Specs"
 
 #' Hex Color pallets for Spectran
@@ -29,13 +29,13 @@
 #' \describe{
 #'   \item{Lang}{401 colors along the spectrum that make a nice, yet nonaccurate representation of the visible spectrum. Created from a picture provided by `Dieter Lang`.}
 #'   \item{Lang_bright}{same as `Lang` but with a slightly brightened version of the picture. Strikes a nice balance between "accuracy" and "nice colors". Is the default when starting [Spectran()]}
-#'   \item{Dan_Bruton}{401 colors along the spectrum that were made with the [cooltools::wavelength2col()] function and are based on Fortran Code by Dan_Bruton. Probably most accurate, but black at both spectral ends, which does not represent the colors themselves but also human sensitivity to them.}
+#'   \item{Dan_Bruton}{401 colors along the spectrum that were made with the `cooltools::wavelength2col()` function and are based on Fortran Code by Dan_Bruton. Probably most accurate, but black at both spectral ends, which does not represent the colors themselves but also human sensitivity to them.}
 #'   \item{Rainbow}{401 colors along the spectrum that make a vibrant and pleasing, yet nonaccurate representation of the visible spectrum. Created by the [grDevices::rainbow()] function.}
 #'   \item{Color_Rendering}{14 colors that represent the reference colors used to determine the color rendering index.}
 #' }
 #' @source [grDevices::rainbow()]
 #' 
-#' [cooltools::wavelength2col()]
+#' [cooltools](https://github.com/obreschkow/cooltools)
 #' 
 #' <https://github.com/LiTGde/Spectran/issues/14>
 "ColorP"
